@@ -1,0 +1,27 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/wp-admin/admin.php?page=dsgvo-webfonts",
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
+  "features": {
+    "networking": true
+  },
+  "steps": [
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "url",
+        "url": "https://github.com/kipphard/dsgvo-webfonts/releases/download/v0.1.0/dsgvo-webfonts-0.1.0.zip"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php\nrequire_once '/wordpress/wp-load.php';\n\n$report = array(\n\t'scanned_at'     => time(),\n\t'urls'           => array( home_url( '/' ), home_url( '/leistungen/' ), home_url( '/kontakt/' ) ),\n\t'findings'       => array(\n\t\tarray( 'service' => 'google_fonts', 'label' => 'Google Fonts', 'category' => 'fonts', 'risk' => 'high', 'hint' => 'Schriften lokal hosten oder entfernen. (LG München I, Az. 3 O 17493/20)', 'count' => 8, 'hosts' => array( 'fonts.googleapis.com', 'fonts.gstatic.com' ), 'samples' => array( 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap', 'https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2' ) ),\n\t\tarray( 'service' => 'google_analytics', 'label' => 'Google Analytics / GA4', 'category' => 'analytics', 'risk' => 'high', 'hint' => 'Erst nach Einwilligung laden oder cookielose Alternative (z. B. Matomo, Plausible)', 'count' => 2, 'hosts' => array( 'www.googletagmanager.com' ), 'samples' => array( 'https://www.googletagmanager.com/gtag/js?id=G-7A8B9C0D1E' ) ),\n\t\tarray( 'service' => 'youtube', 'label' => 'YouTube', 'category' => 'embed', 'risk' => 'high', 'hint' => 'youtube-nocookie.com nutzen oder Klick-zum-Laden-Platzhalter', 'count' => 1, 'hosts' => array( 'www.youtube.com' ), 'samples' => array( 'https://www.youtube.com/embed/aqz-KE-bpKQ' ) ),\n\t\tarray( 'service' => 'google_maps', 'label' => 'Google Maps', 'category' => 'maps', 'risk' => 'high', 'hint' => 'Statische Karte oder Platzhalter mit Einwilligung', 'count' => 1, 'hosts' => array( 'maps.googleapis.com' ), 'samples' => array( 'https://maps.googleapis.com/maps/api/js?key=AIza...' ) ),\n\t\tarray( 'service' => 'gravatar', 'label' => 'Gravatar', 'category' => 'avatar', 'risk' => 'medium', 'hint' => 'Lokale Standard-Avatare verwenden', 'count' => 4, 'hosts' => array( 'secure.gravatar.com' ), 'samples' => array( 'https://secure.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=96' ) ),\n\t\tarray( 'service' => 'fontawesome', 'label' => 'Font Awesome (Icon-CDN)', 'category' => 'fonts', 'risk' => 'medium', 'hint' => 'Icons lokal hosten', 'count' => 1, 'hosts' => array( 'use.fontawesome.com' ), 'samples' => array( 'https://use.fontawesome.com/releases/v6.5.1/css/all.css' ) ),\n\t\tarray( 'service' => 'wp_emoji', 'label' => 'WordPress-Emojis (s.w.org)', 'category' => 'cdn', 'risk' => 'low', 'hint' => 'WordPress-Emoji-Skript deaktivieren', 'count' => 1, 'hosts' => array( 's.w.org' ), 'samples' => array( 'https://s.w.org/images/core/emoji/15.0.3/svg/1f600.svg' ) ),\n\t),\n\t'counts'         => array( 'high' => 4, 'medium' => 2, 'low' => 1 ),\n\t'total_services' => 7,\n\t'total_requests' => 18,\n);\n\nupdate_option( 'dwf_last_report', $report );\n"
+    }
+  ]
+}

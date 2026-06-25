@@ -1,0 +1,453 @@
+# English (US) translation for DSGVO Webfonts.
+# Copyright (C) 2026 André Kipphard
+# This file is distributed under the same license as the DSGVO Webfonts package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DSGVO Webfonts 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-25 22:15+0200\n"
+"PO-Revision-Date: 2026-06-25 22:15+0200\n"
+"Last-Translator: André Kipphard <akipphard@yahoo.de>\n"
+"Language-Team: English (US)\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/class-admin.php:32 includes/class-admin.php:33
+msgid "DSGVO Webfonts"
+msgstr "GDPR Webfonts"
+
+#: includes/class-admin.php:43 includes/class-admin.php:44
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: includes/class-admin.php:52 includes/class-admin.php:53
+#: includes/class-admin.php:359
+msgid "Einstellungen"
+msgstr "Settings"
+
+#: includes/class-admin.php:152
+msgid "DSGVO Webfonts & externe Anfragen"
+msgstr "GDPR Webfonts & External Requests"
+
+#: includes/class-admin.php:156
+msgid "Scan abgeschlossen. Die Ergebnisse werden unten angezeigt."
+msgstr "Scan complete. Results are shown below."
+
+#: includes/class-admin.php:165
+msgid "Scan starten"
+msgstr "Start scan"
+
+#: includes/class-admin.php:168
+msgid "Scan läuft …"
+msgstr "Scanning …"
+
+#: includes/class-admin.php:172
+msgid "Scannt alle veröffentlichten Seiten und Beiträge (bis zu 200 URLs)."
+msgstr "Scans all published pages and posts (up to 200 URLs)."
+
+#: includes/class-admin.php:174
+msgid ""
+"Kostenlose Version: scannt die Startseite sowie bis zu 4 zuletzt "
+"veröffentlichte Seiten/Beiträge."
+msgstr ""
+"Free version: scans the homepage and up to 4 most recently published pages/"
+"posts."
+
+#: includes/class-admin.php:176
+msgid "Mit Pro alle Seiten scannen →"
+msgstr "Scan all pages with Pro →"
+
+#: includes/class-admin.php:186
+msgid "Noch kein Scan durchgeführt"
+msgstr "No scan performed yet"
+
+#: includes/class-admin.php:188
+msgid ""
+"Klicke auf \"Scan starten\", um das gerenderte HTML deiner Seiten auf "
+"externe Anfragen zu prüfen. Das Plugin erkennt Dienste wie Google Fonts, "
+"Analytics, YouTube, Gravatar und weitere, die personenbezogene Daten an "
+"Dritte übertragen."
+msgstr ""
+"Click \"Start scan\" to check the rendered HTML of your pages for external "
+"requests. The plugin detects services such as Google Fonts, Analytics, "
+"YouTube, Gravatar, and others that transmit personal data to third parties."
+
+#: includes/class-admin.php:191 includes/class-admin.php:266
+msgid "Hinweis:"
+msgstr "Note:"
+
+#: includes/class-admin.php:192 includes/class-admin.php:267
+msgid ""
+"Statischer Scan des ausgelieferten HTML – per JavaScript dynamisch "
+"nachgeladene Anfragen werden ggf. nicht erkannt. Ersetzt keine "
+"Rechtsberatung."
+msgstr ""
+"Static scan of the delivered HTML – requests loaded dynamically via "
+"JavaScript may not be detected. Not a substitute for legal advice."
+
+#: includes/class-admin.php:229
+#, php-format
+msgid "Gesamtrisiko: %s"
+msgstr "Overall risk: %s"
+
+#: includes/class-admin.php:238
+#, php-format
+msgid "%d externer Dienst(e)"
+msgstr "%d external service(s)"
+
+#: includes/class-admin.php:247
+#, php-format
+msgid "%d externe Anfrage(n)"
+msgstr "%d external request(s)"
+
+#: includes/class-admin.php:257
+#, php-format
+msgid "Gescannt am: %s"
+msgstr "Scanned on: %s"
+
+#: includes/class-admin.php:272
+msgid ""
+"Keine externen Anfragen erkannt. Bitte prüfe dennoch manuell, ob JavaScript-"
+"basierte Anfragen vorliegen."
+msgstr ""
+"No external requests detected. Please still check manually for JavaScript-"
+"based requests."
+
+#: includes/class-admin.php:275
+msgid "Erkannte externe Dienste"
+msgstr "Detected external services"
+
+#: includes/class-admin.php:299
+#, php-format
+msgid "%d Anfrage(n)"
+msgstr "%d request(s)"
+
+#: includes/class-admin.php:308
+msgid "Empfehlung:"
+msgstr "Recommendation:"
+
+#: includes/class-admin.php:314
+msgid "Beispiel-URLs anzeigen"
+msgstr "Show example URLs"
+
+#: includes/class-admin.php:333
+msgid "Schnell-Maßnahmen"
+msgstr "Quick actions"
+
+#: includes/class-admin.php:335
+msgid ""
+"Einige häufige Anfragen kannst du direkt über die Plugin-Einstellungen "
+"deaktivieren oder lokal ersetzen."
+msgstr ""
+"Some common requests can be disabled or replaced locally directly via the "
+"plugin settings."
+
+#: includes/class-admin.php:337
+msgid "Zu den Einstellungen"
+msgstr "Go to settings"
+
+#: includes/class-admin.php:363
+msgid "Einstellungen gespeichert."
+msgstr "Settings saved."
+
+#: includes/class-admin.php:368
+msgid "Kostenlose Version"
+msgstr "Free version"
+
+#: includes/class-admin.php:370
+msgid ""
+"Die kostenlose Version scannt die Startseite sowie bis zu 4 zuletzt "
+"veröffentlichte Seiten/Beiträge und bietet grundlegende Schnell-Maßnahmen "
+"für häufige DSGVO-Probleme."
+msgstr ""
+"The free version scans the homepage and up to 4 most recently published "
+"pages/posts and provides basic quick actions for common GDPR issues."
+
+#: includes/class-admin.php:381
+msgid "Google Fonts entfernen"
+msgstr "Remove Google Fonts"
+
+#: includes/class-admin.php:387
+msgid "Google Fonts entfernen (extern → keine Anfrage an Google)"
+msgstr "Remove Google Fonts (external → no request to Google)"
+
+#: includes/class-admin.php:390
+msgid ""
+"Entfernt alle externen Google-Fonts-Anfragen aus dem HTML (<link>-Tags, "
+"@import). Stelle sicher, dass du die Schriften lokal hostest oder andere "
+"Schriften verwendest."
+msgstr ""
+"Removes all external Google Fonts requests from the HTML (<link> tags, "
+"@import). Make sure you host the fonts locally or use alternative fonts."
+
+#: includes/class-admin.php:396
+msgid "WordPress-Emojis deaktivieren"
+msgstr "Disable WordPress emojis"
+
+#: includes/class-admin.php:402
+msgid "WordPress-Emojis deaktivieren (entfernt s.w.org-Anfrage)"
+msgstr "Disable WordPress emojis (removes s.w.org request)"
+
+#: includes/class-admin.php:405
+msgid ""
+"WordPress lädt standardmäßig Emoji-Skripte von s.w.org. Diese Option "
+"deaktiviert dieses Verhalten vollständig."
+msgstr ""
+"WordPress loads emoji scripts from s.w.org by default. This option "
+"disables that behavior entirely."
+
+#: includes/class-admin.php:411
+msgid "Gravatar lokal ersetzen"
+msgstr "Replace Gravatar locally"
+
+#: includes/class-admin.php:417
+msgid "Gravatar lokal ersetzen (keine Anfrage an gravatar.com)"
+msgstr "Replace Gravatar locally (no request to gravatar.com)"
+
+#: includes/class-admin.php:420
+msgid ""
+"Ersetzt alle Gravatar-Anfragen durch einen lokalen SVG-Platzhalter-Avatar. "
+"Kein externer Request an gravatar.com."
+msgstr ""
+"Replaces all Gravatar requests with a local SVG placeholder avatar. "
+"No external request to gravatar.com."
+
+#: includes/class-admin.php:426
+msgid "Einstellungen speichern"
+msgstr "Save settings"
+
+#: includes/class-admin.php:431
+msgid "DSGVO Webfonts Pro"
+msgstr "GDPR Webfonts Pro"
+
+#: includes/class-admin.php:435
+msgid "Google Fonts automatisch lokal hosten (Schriften bleiben erhalten)"
+msgstr "Automatically host Google Fonts locally (fonts are preserved)"
+
+#: includes/class-admin.php:439
+msgid ""
+"Externe Einbettungen lokalisieren: YouTube (nocookie), Google Maps & Vimeo "
+"als Klick-zum-Laden-Platzhalter"
+msgstr ""
+"Localize external embeds: YouTube (nocookie), Google Maps & Vimeo as "
+"click-to-load placeholder"
+
+#: includes/class-admin.php:443
+msgid "Geplanter automatischer Re-Scan + E-Mail-Bericht"
+msgstr "Scheduled automatic re-scan + email report"
+
+#: includes/class-admin.php:447
+msgid "Multisite-Unterstützung"
+msgstr "Multisite support"
+
+#: includes/class-admin.php:451
+msgid "PDF-Konformitätsbericht"
+msgstr "PDF compliance report"
+
+#: includes/class-admin.php:456
+msgid "Jetzt upgraden"
+msgstr "Upgrade now"
+
+#: includes/class-helpers.php:46
+msgid "Keine Berechtigung."
+msgstr "You do not have permission to do this."
+
+#: includes/class-helpers.php:104
+msgid "Google Fonts"
+msgstr "Google Fonts"
+
+#: includes/class-helpers.php:108
+msgid "Schriften lokal hosten oder entfernen. (LG München I, Az. 3 O 17493/20)"
+msgstr "Host fonts locally or remove them. (LG München I, Az. 3 O 17493/20)"
+
+#: includes/class-helpers.php:111
+msgid "Google Analytics / GA4"
+msgstr "Google Analytics / GA4"
+
+#: includes/class-helpers.php:115
+msgid ""
+"Erst nach Einwilligung laden oder cookielose Alternative (z. B. Matomo, "
+"Plausible)"
+msgstr ""
+"Load only after consent or use a cookie-free alternative (e.g. Matomo, "
+"Plausible)"
+
+#: includes/class-helpers.php:118
+msgid "Google Tag Manager"
+msgstr "Google Tag Manager"
+
+#: includes/class-helpers.php:122 includes/class-helpers.php:129
+#: includes/class-helpers.php:171 includes/class-helpers.php:178
+msgid "Erst nach Einwilligung laden"
+msgstr "Load only after consent"
+
+#: includes/class-helpers.php:125
+msgid "Google Ads / DoubleClick"
+msgstr "Google Ads / DoubleClick"
+
+#: includes/class-helpers.php:132
+msgid "YouTube"
+msgstr "YouTube"
+
+#: includes/class-helpers.php:136
+msgid "youtube-nocookie.com nutzen oder Klick-zum-Laden-Platzhalter"
+msgstr "Use youtube-nocookie.com or a click-to-load placeholder"
+
+#: includes/class-helpers.php:139
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: includes/class-helpers.php:143
+msgid "dnt=1 setzen oder Platzhalter"
+msgstr "Set dnt=1 or use a placeholder"
+
+#: includes/class-helpers.php:146
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: includes/class-helpers.php:150
+msgid "Statische Karte oder Platzhalter mit Einwilligung"
+msgstr "Static map or placeholder with consent"
+
+#: includes/class-helpers.php:153
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#: includes/class-helpers.php:157
+msgid "Lokale Standard-Avatare verwenden"
+msgstr "Use local default avatars"
+
+#: includes/class-helpers.php:160
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: includes/class-helpers.php:164
+msgid "hCaptcha / Friendly Captcha oder erst nach Einwilligung"
+msgstr "hCaptcha / Friendly Captcha or load only after consent"
+
+#: includes/class-helpers.php:167
+msgid "Facebook / Meta Pixel"
+msgstr "Facebook / Meta Pixel"
+
+#: includes/class-helpers.php:174
+msgid "Hotjar"
+msgstr "Hotjar"
+
+#: includes/class-helpers.php:181
+msgid "Font Awesome (Icon-CDN)"
+msgstr "Font Awesome (Icon CDN)"
+
+#: includes/class-helpers.php:185
+msgid "Icons lokal hosten"
+msgstr "Host icons locally"
+
+#: includes/class-helpers.php:188
+msgid "JavaScript-CDN (jQuery, cdnjs, jsDelivr, unpkg)"
+msgstr "JavaScript CDN (jQuery, cdnjs, jsDelivr, unpkg)"
+
+#: includes/class-helpers.php:192
+msgid "Bibliotheken lokal ausliefern"
+msgstr "Serve libraries locally"
+
+#: includes/class-helpers.php:195
+msgid "WordPress-Emojis (s.w.org)"
+msgstr "WordPress Emojis (s.w.org)"
+
+#: includes/class-helpers.php:199
+msgid "WordPress-Emoji-Skript deaktivieren"
+msgstr "Disable WordPress emoji script"
+
+#: includes/class-helpers.php:246
+msgid "Hoch"
+msgstr "High"
+
+#: includes/class-helpers.php:247
+msgid "Mittel"
+msgstr "Medium"
+
+#: includes/class-helpers.php:248
+msgid "Niedrig"
+msgstr "Low"
+
+#: includes/class-helpers.php:261
+msgid "Schriften"
+msgstr "Fonts"
+
+#: includes/class-helpers.php:262
+msgid "Analyse / Tracking"
+msgstr "Analytics / Tracking"
+
+#: includes/class-helpers.php:263
+msgid "Einbettung"
+msgstr "Embed"
+
+#: includes/class-helpers.php:264
+msgid "Karten"
+msgstr "Maps"
+
+#: includes/class-helpers.php:265
+msgid "Avatar"
+msgstr "Avatar"
+
+#: includes/class-helpers.php:266
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: includes/class-helpers.php:267
+msgid "Social Media"
+msgstr "Social Media"
+
+#: includes/class-helpers.php:268
+msgid "CDN / Skripte"
+msgstr "CDN / Scripts"
+
+#: includes/class-helpers.php:269
+msgid "Sonstiges"
+msgstr "Other"
+
+#: includes/class-pro.php:104
+#, php-format
+msgid "[%s] DSGVO-Webfonts-Scan abgeschlossen"
+msgstr "[%s] GDPR Webfonts scan complete"
+
+#: includes/class-pro.php:108
+#, php-format
+msgid "Automatischer DSGVO-Scan für %s abgeschlossen."
+msgstr "Automatic GDPR scan for %s complete."
+
+#: includes/class-pro.php:113
+#, php-format
+msgid "Gescannte Seiten: %d"
+msgstr "Pages scanned: %d"
+
+#: includes/class-pro.php:118
+#, php-format
+msgid "Erkannte externe Dienste: %d"
+msgstr "Detected external services: %d"
+
+#: includes/class-pro.php:123
+#, php-format
+msgid "Externe Anfragen gesamt: %d"
+msgstr "Total external requests: %d"
+
+#: includes/class-pro.php:128
+#, php-format
+msgid "Davon hohes Risiko: %d"
+msgstr "Of which high risk: %d"
+
+#: includes/class-pro.php:133
+#, php-format
+msgid "Vollständiger Bericht: %s"
+msgstr "Full report: %s"
+
+#: includes/class-scanner.php:75
+msgid ""
+"Externe Anfrage prüfen und – falls personenbezogene Daten übertragen werden "
+"– lokal einbinden oder entfernen."
+msgstr ""
+"Check external request and – if personal data is being transmitted – "
+"embed locally or remove."

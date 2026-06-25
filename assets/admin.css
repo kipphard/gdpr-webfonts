@@ -1,0 +1,235 @@
+/* DSGVO Webfonts – Admin Styles */
+
+/* Allgemeines Layout */
+.dwf-wrap {
+	max-width: 1100px;
+}
+
+/* Scan-Box */
+.dwf-scan-box {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	padding: 16px 20px;
+	margin-bottom: 20px;
+}
+
+.dwf-scan-btn {
+	font-size: 14px;
+}
+
+.dwf-scan-running {
+	margin-left: 10px;
+	color: #646970;
+	font-style: italic;
+}
+
+/* Empty State */
+.dwf-empty-state {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	padding: 32px;
+	text-align: center;
+}
+
+.dwf-empty-icon {
+	font-size: 48px;
+	width: 48px;
+	height: 48px;
+	color: #a7aaad;
+	display: block;
+	margin: 0 auto 16px;
+}
+
+/* Zusammenfassungszeile */
+.dwf-summary-row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 16px;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	padding: 16px 20px;
+	margin-bottom: 20px;
+}
+
+.dwf-summary-stat {
+	font-size: 13px;
+	color: #646970;
+}
+
+/* Risiko-Badges */
+.dwf-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	padding: 4px 10px;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: 600;
+	white-space: nowrap;
+}
+
+.dwf-badge-high {
+	background: #fce8e8;
+	color: #8a1f1f;
+	border: 1px solid #d63638;
+}
+
+.dwf-badge-medium {
+	background: #fef3cd;
+	color: #7a4b00;
+	border: 1px solid #dba617;
+}
+
+.dwf-badge-low {
+	background: #f0f0f1;
+	color: #3c434a;
+	border: 1px solid #c3c4c7;
+}
+
+/* Kategorie-Chips */
+.dwf-category-chip {
+	display: inline-block;
+	padding: 2px 8px;
+	background: #f0f6fc;
+	color: #2271b1;
+	border: 1px solid #c5d9ed;
+	border-radius: 3px;
+	font-size: 11px;
+	font-weight: 400;
+}
+
+/* Disclaimer */
+.dwf-disclaimer {
+	background: #f0f6fc;
+	border-left: 4px solid #2271b1;
+	padding: 12px 16px;
+	margin: 16px 0;
+	font-size: 13px;
+}
+
+/* Findings-Liste */
+.dwf-finding-list {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	margin-top: 12px;
+}
+
+.dwf-finding-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.dwf-card-high   { border-left: 4px solid #d63638; }
+.dwf-card-medium { border-left: 4px solid #dba617; }
+.dwf-card-low    { border-left: 4px solid #c3c4c7; }
+
+.dwf-finding-header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px;
+	padding: 10px 16px;
+	background: #f6f7f7;
+	border-bottom: 1px solid #dcdcde;
+}
+
+.dwf-finding-label {
+	font-size: 14px;
+}
+
+.dwf-finding-count {
+	font-size: 12px;
+	color: #646970;
+	margin-left: auto;
+}
+
+.dwf-finding-body {
+	padding: 12px 16px;
+}
+
+.dwf-finding-hint {
+	margin-top: 0;
+	font-size: 13px;
+}
+
+/* Samples */
+.dwf-samples-wrap {
+	margin-top: 8px;
+}
+
+.dwf-samples-wrap summary {
+	cursor: pointer;
+	font-size: 12px;
+	color: #2271b1;
+}
+
+.dwf-sample-list {
+	margin-top: 6px;
+	font-size: 12px;
+	word-break: break-all;
+}
+
+.dwf-sample-list li {
+	margin-bottom: 4px;
+}
+
+/* Keine Findings */
+.dwf-no-findings {
+	background: #edfaef;
+	border: 1px solid #00a32a;
+	border-radius: 4px;
+	padding: 16px 20px;
+}
+
+/* Schnell-Maßnahmen */
+.dwf-quick-actions {
+	margin-top: 24px;
+	padding: 16px 20px;
+	max-width: 680px;
+}
+
+/* Einstellungen */
+.dwf-settings-info {
+	max-width: 680px;
+	padding: 20px 24px;
+	margin-bottom: 20px;
+}
+
+/* Pro-Teaser */
+.dwf-pro-teaser {
+	max-width: 680px;
+	padding: 20px 24px;
+	margin-top: 24px;
+	background: #f6f7f7;
+	border: 1px dashed #a7aaad;
+}
+
+.dwf-pro-features {
+	list-style: none;
+	padding: 0;
+	margin: 12px 0;
+}
+
+.dwf-pro-features li {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 6px 0;
+	border-bottom: 1px solid #dcdcde;
+	color: #646970;
+}
+
+.dwf-pro-features li:last-child {
+	border-bottom: none;
+}
+
+.dwf-pro-features .dashicons {
+	color: #a7aaad;
+}
